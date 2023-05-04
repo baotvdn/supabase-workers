@@ -1,0 +1,19 @@
+{
+  "name": "postgrest-example",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "wrangler": "2.17.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@supabase/postgrest-js": "^1.6.0",
+    "@supabase/supabase-js": "^2.21.0",
+    "itty-router": "^3.0.12"
+  }
+}
